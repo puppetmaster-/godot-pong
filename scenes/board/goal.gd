@@ -10,6 +10,12 @@ func _ready():
 
 func _goal(_body):
 	if _body.is_in_group("ball"):
-		get_node("/root/game").goal(player)
+		
+		#call function "goal" on all member of group "game"
+		get_tree().call_group(0, "game", "goal",player)
+		
+		#this works also but more static
+		#get_node("/root/game").goal(player)
+		
 		_body.free()
 	

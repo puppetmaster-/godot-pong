@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=1]
 
-[ext_resource path="res://scenes/gui.gd" type="Script" id=1]
+[ext_resource path="res://scenes/gui/gui.gd" type="Script" id=1]
 [ext_resource path="res://font/96.fnt" type="BitmapFont" id=2]
 
 [node name="gui" type="CanvasLayer"]

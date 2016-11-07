@@ -1,14 +1,14 @@
 [gd_scene load_steps=8 format=1]
 
-[ext_resource path="res://scenes/game.gd" type="Script" id=1]
-[ext_resource path="res://scenes/background.tscn" type="PackedScene" id=2]
-[ext_resource path="res://scenes/gui.tscn" type="PackedScene" id=3]
-[ext_resource path="res://scenes/wall.tscn" type="PackedScene" id=4]
-[ext_resource path="res://scenes/goal.tscn" type="PackedScene" id=5]
-[ext_resource path="res://scenes/pad.tscn" type="PackedScene" id=6]
-[ext_resource path="res://scenes/ball.tscn" type="PackedScene" id=7]
+[ext_resource path="res://scenes/main/game.gd" type="Script" id=1]
+[ext_resource path="res://scenes/board/background.tscn" type="PackedScene" id=2]
+[ext_resource path="res://scenes/gui/gui.tscn" type="PackedScene" id=3]
+[ext_resource path="res://scenes/board/wall.tscn" type="PackedScene" id=4]
+[ext_resource path="res://scenes/board/goal.tscn" type="PackedScene" id=5]
+[ext_resource path="res://scenes/paddle/pad.tscn" type="PackedScene" id=6]
+[ext_resource path="res://scenes/ball/ball.tscn" type="PackedScene" id=7]
 
-[node name="game" type="Node2D"]
+[node name="game" type="Node2D" groups=[ "game" ]]
 
 script/script = ExtResource( 1 )
 
