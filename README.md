@@ -9,7 +9,7 @@ This is what you get:
 - build on modules (single scenes for ball, pads, gui, ...)
 - moving KinematicBody2D with collisions
 - Area2d and StaticBody2D
-- connect on signals
+- connect signals
 - working with timers
 - working with groups
 - pause game
@@ -19,6 +19,8 @@ This is what you get:
 - variables with onready
 - tool mode
 - CanvasLayer for gui and background
+- instancing a scene
+- call_group function
 
 Feel free to study it and leave me some feedback.
 
