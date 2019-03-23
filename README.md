@@ -1,7 +1,7 @@
 # godot-pong
-Demo project for Godot Engine (a more godot like pong)
+Demo project for Godot Engine 2.1 (a more godot like pong)
 
-This is not the source code for the original godot pong tutorial! (http://docs.godotengine.org/en/stable/tutorials/step_by_step/simple_2d_game.html)
+This is not the source code for the original godot pong tutorial! (http://docs.godotengine.org/en/2.1/learning/step_by_step/simple_2d_game.html)
 
 I created this demo project to have a more godot like pong game for beginners to learn.
 
